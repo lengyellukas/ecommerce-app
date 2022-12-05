@@ -1,0 +1,41 @@
+2019-09-05 20:40:50.256  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : User creation step. User name set as Alena
+2019-09-05 20:40:50.417  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : success=create_user. User: Alena was created
+2019-09-05 20:41:13.626  INFO 5346 --- [nio-8080-exec-3] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:41:13.628  INFO 5346 --- [nio-8080-exec-3] c.e.demo.controllers.UserController      : fail=create_user! Password length: 3 is too short
+2019-09-05 20:41:33.571  INFO 5346 --- [nio-8080-exec-5] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:41:33.573  INFO 5346 --- [nio-8080-exec-5] c.e.demo.controllers.UserController      : fail=create_user! Password length: 3 is too short
+2019-09-05 20:41:41.926  INFO 5346 --- [nio-8080-exec-7] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:41:41.928  INFO 5346 --- [nio-8080-exec-7] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:42:00.880  INFO 5346 --- [nio-8080-exec-9] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-09-05 20:42:13.370  INFO 5346 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:42:13.373  INFO 5346 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:42:24.520  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:42:24.522  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:42:45.125  INFO 5346 --- [nio-8080-exec-6] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:42:45.128  INFO 5346 --- [nio-8080-exec-6] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:42:45.827  INFO 5346 --- [nio-8080-exec-8] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:42:45.828  INFO 5346 --- [nio-8080-exec-8] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:42:46.616  INFO 5346 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:42:46.618  INFO 5346 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:42:51.017  INFO 5346 --- [nio-8080-exec-1] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:42:51.107  INFO 5346 --- [nio-8080-exec-1] c.e.demo.controllers.UserController      : success=create_user. User: Lukas was created
+2019-09-05 20:42:59.187  INFO 5346 --- [nio-8080-exec-3] c.e.demo.controllers.UserController      : fail=add_to_cart. Item_id: 3 does not exist
+2019-09-05 20:43:06.020  INFO 5346 --- [nio-8080-exec-4] c.e.demo.controllers.UserController      : fail=add_to_cart. User:  does not exist
+2019-09-05 20:43:59.228  INFO 5346 --- [nio-8080-exec-6] c.e.demo.controllers.UserController      : success=submit_order. Order created for user: Alena
+2019-09-05 20:44:25.369  INFO 5346 --- [nio-8080-exec-7] c.e.demo.controllers.UserController      : success=get_order_history. Order history of user: Alena
+2019-09-05 20:44:35.876  INFO 5346 --- [nio-8080-exec-8] c.e.demo.controllers.UserController      : User creation step. User name set as Lukas
+2019-09-05 20:44:45.872  INFO 5346 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : User creation step. User name set as Tomas
+2019-09-05 20:44:45.962  INFO 5346 --- [io-8080-exec-10] c.e.demo.controllers.UserController      : success=create_user. User: Tomas was created
+2019-09-05 20:44:52.580  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : User creation step. User name set as Miro
+2019-09-05 20:44:52.582  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:44:56.822  INFO 5346 --- [nio-8080-exec-3] c.e.demo.controllers.UserController      : User creation step. User name set as Miro
+2019-09-05 20:44:56.824  INFO 5346 --- [nio-8080-exec-3] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:45:03.132  INFO 5346 --- [nio-8080-exec-5] c.e.demo.controllers.UserController      : User creation step. User name set as Miro
+2019-09-05 20:45:03.133  INFO 5346 --- [nio-8080-exec-5] c.e.demo.controllers.UserController      : fail=create_user! Password length: 4 is too short
+2019-09-05 20:46:27.365  INFO 5346 --- [nio-8080-exec-7] c.e.demo.controllers.UserController      : User creation step. User name set as Miro
+2019-09-05 20:46:27.367  INFO 5346 --- [nio-8080-exec-7] c.e.demo.controllers.UserController      : fail=create_user! Password length: 4 is too short
+2019-09-05 20:46:35.782  INFO 5346 --- [nio-8080-exec-9] c.e.demo.controllers.UserController      : User creation step. User name set as Miro
+2019-09-05 20:46:35.784  INFO 5346 --- [nio-8080-exec-9] c.e.demo.controllers.UserController      : fail=create_user! Confirm password does not match password
+2019-09-05 20:46:44.154  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : User creation step. User name set as Miro
+2019-09-05 20:46:44.313  INFO 5346 --- [nio-8080-exec-2] c.e.demo.controllers.UserController      : success=create_user. User: Miro was created
+
